@@ -1,0 +1,40 @@
+.logo {
+
+    text-align: center;
+}
+
+.searchbar {
+    text-align: center;
+    background-color: white;
+    border: 2px solid #ececec;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 40px;
+    border-radius: 25px;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+        
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 8px 20px;
+
+}
+
+.listright {
+    float: right;
+}
