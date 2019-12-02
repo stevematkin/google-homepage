@@ -1,3 +1,27 @@
+body {
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+            
+}
+
+li {
+    display: inline;
+    
+}
+
+a {
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #000;
+
+}
+
 .logo {
 
     text-align: center;
@@ -12,29 +36,25 @@
     width: 600px;
     height: 40px;
     border-radius: 25px;
-
-
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-        
+a:hover {
+    text-decoration: underline;
 }
 
-li {
-    float: left;
+.topbar {
+    padding: 20px 20px 0px 5px;
 }
 
-li a {
-    display: block;
-    text-align: center;
-    padding: 8px 20px;
-
-}
-
-.listright {
+.topright {
     float: right;
+}
+
+.signin {
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
+    
 }
