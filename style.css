@@ -16,10 +16,14 @@ li {
 }
 
 a {
-    padding: 8px 15px;
+    padding: 8px 11px;
     text-decoration: none;
-    color: #000;
+    color: black;
 
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .logo {
@@ -48,16 +52,16 @@ a {
 }
 
 
-a:hover {
-    text-decoration: underline;
-}
-
 .topbar {
-    padding: 20px 20px 0px 5px;
+    padding: 15px 22px 10px 10px;
 }
 
 .topright {
     float: right;
+}
+
+.topleft {
+    opacity: 0.75;
 }
 
 .signin {
@@ -66,5 +70,26 @@ a:hover {
     text-decoration: none;
     border-radius: 2px;
     font-weight: bold;
+    padding: 7px 12px;
     
+}
+
+.middlebar {
+    text-align: center;
+}
+
+.middlebar input {
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border-width: 0px;
+    border-radius: 4px;
+    padding: 12px 15px;
+    
+}
+
+.middlebar div {
+    display: inline-block;
+    padding: 20px 8px;
+    text-align: left;
 }
